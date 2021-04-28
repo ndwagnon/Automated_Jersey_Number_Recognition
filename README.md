@@ -1,6 +1,6 @@
 # Football Player Recognition
 
-This project will identify the jersey numbers of American football players in broadcast footage using a two stage approach. The first stage will be a pre-trained Mask R-CNN that will detect players, and the second stage will be a fine-tuned Faster R-CNN to extract digits from the player bounding boxes. This project was inherited from Alex Ramey, a former UA CS student. Much of the credit goes to him. Nguyen Nguyen, Jeff Reidy, and myself (Noah Wagnon) have added on to his existing project.
+This project will identify the jersey numbers of American football players in broadcast footage using a two stage approach. The first stage will be a pre-trained Mask R-CNN that will detect players, and the second stage will be a fine-tuned Faster R-CNN to extract digits from the player bounding boxes. This project was inherited from Alex Ramey, a former UA CS student. Much of the credit goes to him. Nguyen Nguyen, Jeff Reidy, and myself (Noah Wagnon) have added on to his existing project by adding roster integration, game clock information extraction, jersey color filtering, a linked database, 2-digit number synthesis, major speed boosts, and minor accuracy improvements
 
 ## Usage
 
