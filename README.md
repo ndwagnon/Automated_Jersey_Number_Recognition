@@ -1,6 +1,6 @@
 # Football Player Recognition
 
-This project will identify the jersey numbers of American football players in broadcast footage using a two stage approach. The first stage will be a pre-trained Mask R-CNN that will detect players, and the second stage will be a fine-tuned Faster R-CNN to extract digits from the player bounding boxes.
+This project will identify the jersey numbers of American football players in broadcast footage using a two stage approach. The first stage will be a pre-trained Mask R-CNN that will detect players, and the second stage will be a fine-tuned Faster R-CNN to extract digits from the player bounding boxes. This project was inherited from Alex Ramey, a former UA CS student. Much of the credit goes to him. Nguyen Nguyen, Jeff Reidy, and myself (Noah Wagnon) have added on to his existing project.
 
 ## Usage
 
@@ -34,11 +34,10 @@ For more details, see [data](data) folder, which holds its own README.md file.
 
 3. The best performing model is hereby referred to as `jersey_number_detector`.
 
-## Next Steps
+## Other features
 
-1. Improve speed by pipelining the two stages
-1. Synthesize the discrete digits into actual jersey numbers (i.e. '2' and '9' --> '29')
-1. Filter out away team jersey numbers based on color, which will vary per game
-1. Filter out sideline player noise
-1. Supplement the jersey numbers with roster information (player names)
-1. Add game context using OCR on the scoreboard
+1. Synthesized the discrete digits into actual jersey numbers (i.e. '2' and '9' --> '29')
+2. Filtered out away team jersey numbers based on color, which will vary per game
+3. Supplemented the jersey numbers with roster information (player names)
+4. Added game context using OCR on the scoreboard
+5. Developed simple API to post play-by-play data to.
