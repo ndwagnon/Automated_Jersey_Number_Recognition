@@ -25,7 +25,7 @@ This process was explored by Alex Ramey. For this project, we have added more da
 
 ## Data Distribution
 
-![bar chart](readme_assets/dataVisualization.png)
+![bar chart](readme_assets/dataVisualization.PNG)
 
 ## How It Was Made
 
