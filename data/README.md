@@ -1,4 +1,5 @@
 # Jersey Number Dataset
+This process was explored by Alex Ramey. For this project, we have added more data to the project by following the same process on the 2015 Cotton Bowl
 
 ## Example Images
 
