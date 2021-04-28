@@ -41,3 +41,6 @@ For more details, see [data](data) folder, which holds its own README.md file.
 3. Supplemented the jersey numbers with roster information (player names)
 4. Added game context using OCR on the scoreboard
 5. Developed simple API to post play-by-play data to.
+
+## Future Work
+1. Utilize the DETR to perform more accurate person proposals in crowded regions.
