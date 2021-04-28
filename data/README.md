@@ -29,7 +29,7 @@ This process was explored by Alex Ramey. For this project, we have added more da
 
 ## How It Was Made
 
-1. Used [4K Video Downloader](https://www.4kdownload.com/products/product-videodownloader) to download two highlight videos of Alabama football broadcast game footage from the [2014 Iron Bowl](https://www.youtube.com/watch?v=Fh7bYnoFMYM) and [2015 National Championship](https://www.youtube.com/watch?v=mBHvIf84L5k). The videos were downloaded at 720p quality. The players wore home jerseys for the iron bowl game and away jerseys for the national championship.
+1. Used [4K Video Downloader](https://www.4kdownload.com/products/product-videodownloader) to download two highlight videos of Alabama football broadcast game footage from the [2014 Iron Bowl](https://www.youtube.com/watch?v=Fh7bYnoFMYM) and [2016 National Championship](https://www.youtube.com/watch?v=mBHvIf84L5k). The videos were downloaded at 720p quality. The players wore home jerseys for the iron bowl game and away jerseys for the national championship.
 
 1. Ran [frameGrabber.py](util/frameGrabber.py) to capture frames from the two downloaded videos. The `frameGrabber` utility allows the user to toggle capturing on/off as the video plays. This functionality was used to focus frame captures on live action. Frames captured from both videos totaled 2924 and are stored under `raw/`.
 
